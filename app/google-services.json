@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1012944366995",
+    "project_id": "proyecto-mqtt-8d714",
+    "storage_bucket": "proyecto-mqtt-8d714.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012944366995:android:1ad5fc6fef940bc70dcc66",
+        "android_client_info": {
+          "package_name": "com.example.mqttappsensor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW1i6dFlLejDIvSJMyMoi7-CNb81ufrLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
+

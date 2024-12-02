@@ -1,0 +1,18 @@
+pluginManagement {
+    repositories {
+        google()  // Este repositorio es necesario para los servicios de Google
+        mavenCentral()  // Este repositorio es comúnmente utilizado para muchas dependencias
+        gradlePluginPortal()  // Repositorio para plugins de Gradle
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)  // Esto asegura que no se usen repositorios a nivel de proyecto
+    repositories {
+        google()  // Asegúrate de incluir Google
+        mavenCentral()  // Asegúrate de incluir Maven Central
+    }
+}
+
+rootProject.name = "MQTTappSensor"  // El nombre de tu proyecto
+include ':app'  // Incluye tu módulo de aplicación
